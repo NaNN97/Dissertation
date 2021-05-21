@@ -1,0 +1,7 @@
+Implement snapshot of webcam. 50min
+Save the snapshot to a png file. 1h but still needs working on as the file is saved but not renamed
+
+TODO:
+
+Feed the tensor flow with a train data of your face and test it if it's matching. Once it does label the
+matched rectangle with your name.

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="/style/face-detection.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script defer src="/js/face-api.min.js"></script>
+        <script defer src="/js/face-detection.js"></script>
+        <title>Face Detection</title>
+    </head>
+
+    <body>
+        <div>
+            <button id="startbutton">Take photo</button>
+            <video id="video" width="480" height="320" autoplay muted>
+                <canvas id="canvas">
+
+                </canvas>
+            </video>
+        </div>
+        <img id="camera" src="http://192.168.0.29:81/stream">
+        <img id="photo">
+        <a id="link" download="test001.png">download your file</a>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+
+}
+canvas {
+    position: absolute;
+    top: 0 !important;
+    left: 0 !important;
+}
+
+video {
+    background: black;
+    top: 50px !important;
+}
+
+#photo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+
+#startbutton {
+    position: fixed;
+    z-index: 10;
+}
